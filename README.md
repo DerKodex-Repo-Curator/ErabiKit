@@ -1,5 +1,4 @@
 # ErabiKit
-[![Star History Chart](https://api.star-history.com/svg?repos=rryam/ErabiKit&type=Date)](https://star-history.com/#rryam/ErabiKit&Date)
 
 
 ErabiKit (選び) is a beautiful, customizable SwiftUI settings screen library for iOS. The name comes from the Japanese word for "choice" or "selection."
@@ -368,3 +367,5 @@ Created by [Rudrank Riyam](https://x.com/rudrank)
 
 - X/Twitter: [@rudrank](https://x.com/rudrank)
 - GitHub: [@rudrankriyam](https://github.com/rudrankriyam)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=rryam/ErabiKit&type=Date)](https://star-history.com/#rryam/ErabiKit&Date)
