@@ -1,6 +1,5 @@
 # ErabiKit
 
-
 ErabiKit (選び) is a beautiful, customizable SwiftUI settings screen library for iOS. The name comes from the Japanese word for "choice" or "selection."
 
 <p align="center">
@@ -19,14 +18,6 @@ ErabiKit (選び) is a beautiful, customizable SwiftUI settings screen library f
 - Dark mode support
 - Works on iPad and landscape
 - Built with accessibility in mind
-
-## Support
-
-Love this project? Check out my books to explore more of AI and iOS development:
-- [Exploring AI for iOS Development](https://academy.rudrank.com/product/ai)
-- [Exploring AI-Assisted Coding for iOS Development](https://academy.rudrank.com/product/ai-assisted-coding)
-
-Your support helps to keep this project growing!
 
 ## Requirements
 
