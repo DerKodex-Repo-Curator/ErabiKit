@@ -3,7 +3,7 @@
 ErabiKit (選び) is a beautiful, customizable SwiftUI settings screen library for iOS. The name comes from the Japanese word for "choice" or "selection."
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Swift-6.0+-fa7343?style=flat&logo=swift&logoColor=white" alt="Swift 6.0+">
+  <img src="https://img.shields.io/badge/Swift-5.5+-fa7343?style=flat&logo=swift&logoColor=white" alt="Swift 5.5+">
   <br>
   <img src="https://img.shields.io/badge/iOS-15.0+-000000?style=flat&logo=apple&logoColor=white" alt="iOS 15.0+">
   <img src="https://img.shields.io/badge/SPM-compatible-brightgreen?style=flat" alt="SPM compatible">
@@ -41,6 +41,8 @@ Then import it in your SwiftUI views:
 import ErabiKit
 ```
 
+The package, product, and import name are all `ErabiKit`. Older local checkouts may still live in a directory named `RRSettingsKit`, but the repository and public module are `ErabiKit`.
+
 ## Table of Contents
 
 - [Quick Start](#quick-start)
@@ -54,7 +56,6 @@ import ErabiKit
   - [TwitterRow](#twitterrow)
   - [MailRow](#mailrow)
   - [AboutRow](#aboutrow)
-- [View Modifiers](#view-modifiers)
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
@@ -277,39 +278,6 @@ AboutRow(
 **Parameters:**
 - `title`: Text to display (shown in uppercase with kerning)
 - `accessibilityTitle`: Accessibility label for VoiceOver
-
-## View Modifiers
-
-ErabiKit includes custom view modifiers you can use on any SwiftUI view:
-
-### `.customIconImage()`
-
-Applies consistent styling to SF Symbol icons.
-
-```swift
-Image(systemName: "star")
-    .customIconImage()
-```
-
-### `.settingsBackground(cornerRadius:innerPadding:outerBottomPadding:addOverlay:)`
-
-Applies the signature ErabiKit background with gradient border.
-
-```swift
-Text("Custom Row")
-    .settingsBackground(
-        cornerRadius: 16,
-        innerPadding: 8,
-        outerBottomPadding: 6,
-        addOverlay: true
-    )
-```
-
-**Parameters:**
-- `cornerRadius`: Corner radius for the overlay (default: `16`)
-- `innerPadding`: Vertical padding inside the row (default: `8`)
-- `outerBottomPadding`: Bottom padding outside the row (default: `6`)
-- `addOverlay`: Show/hide gradient border (default: `true`)
 
 ## Customization
 
