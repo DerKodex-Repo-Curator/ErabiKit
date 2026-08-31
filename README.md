@@ -326,5 +326,3 @@ Created by [Rudrank Riyam](https://x.com/rudrank)
 
 - X/Twitter: [@rudrank](https://x.com/rudrank)
 - GitHub: [@rudrankriyam](https://github.com/rudrankriyam)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=rryam/ErabiKit&type=Date)](https://star-history.com/#rryam/ErabiKit&Date)
